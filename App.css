@@ -1,0 +1,60 @@
+.CardHolder {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+.Card {
+  width: 550px;
+  height: 80px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.btn {
+  height: 45px;
+  width: 80px;
+  margin-right: 5px;
+  background-color: red;
+  color: white;
+  border-radius: 5%;
+  border: none;
+}
+.btn:hover {
+  background-color: black;
+  color: red;
+  cursor: pointer;
+  border: none;
+}
+
+.input {
+  width: 1200px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  cursor: text;
+  margin-bottom: 5px;
+}
+.Post {
+  width: 100px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  background-color: white;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  color: gray;
+  cursor: pointer;
+}
+/* .div {
+  font-weight: bold;
+} */
